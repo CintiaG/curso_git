@@ -3,7 +3,7 @@ function shooter(x, y){
 	this.y = y;
 
 	this.show = function(){
-		fill(1, 0, 0);
+		fill(random(255), 0, 0);
 		ellipse(this.x, this.y, 20, 20)
 	}
 

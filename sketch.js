@@ -31,10 +31,10 @@ function draw() {
 
 
 function keyPressed(){
-	/*if(keyCode === UP_ARROW){
+	if(keyCode === UP_ARROW){
 		var shoot = new shooter(base.x + 30, height-20);
 		shoots.push(shoot);
-	}*/
+	}
 	if(keyCode === RIGHT_ARROW){
 		base.move(1);
 	}else if(keyCode === LEFT_ARROW){
